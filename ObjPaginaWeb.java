@@ -5,9 +5,6 @@ public class ObjPaginaWeb {
     private String Titulo;
     private LocalDateTime FechaAcceso;
     
-    public ObjPaginaWeb() {
-    }
-
     public ObjPaginaWeb(String url, String titulo) {
         Url = url;
         Titulo = titulo;
@@ -34,8 +31,6 @@ public class ObjPaginaWeb {
         return FechaAcceso;
     }
 
-    public void setFechaAcceso(LocalDateTime fechaAcceso) {
-        FechaAcceso = fechaAcceso;
-    }
+    
     
 }
